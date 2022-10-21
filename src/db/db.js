@@ -10,7 +10,7 @@ import React, {useEffect} from 'react';
 
 export function getData(){
     useEffect(()=>{
-        fetch("https://f7af-213-230-112-157.eu.ngrok.io/api/products")
+        fetch("https://c7ad-213-230-112-157.eu.ngrok.io/api/products")
         .then(res=>res.json())
         .then((result)=>{
             console.log(result);
