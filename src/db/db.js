@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import burgerImg from "../images/burger.png";
 import cocaImg from "../images/coca.png";
 import icecreamImg from "../images/icecream.png";
@@ -6,7 +7,7 @@ import kebabImg from "../images/kebab.png";
 import pizzaImg from "../images/pizza.png";
 import saladImg from "../images/salad.png";
 import waterImg from "../images/water.png";
-import React, {useEffect} from 'react';
+
 
 export function getData(){
     useEffect(()=>{
