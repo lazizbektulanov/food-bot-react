@@ -7,7 +7,7 @@ import Cart from "./Components/Cart/Cart"
 // const foods = getData();
 
 const telegram = window.Telegram.WebApp;
-const url = `https://b3dd-213-230-102-155.eu.ngrok.io`;
+const url = `http://localhost:8080/api/products`;
 
 
 function App() {
