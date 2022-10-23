@@ -1,26 +1,26 @@
-import { useEffect } from "react";
-import burgerImg from "../images/burger.png";
-import cocaImg from "../images/coca.png";
-import icecreamImg from "../images/icecream.png";
-import icecream1Img from "../images/icecream1.png";
-import kebabImg from "../images/kebab.png";
-import pizzaImg from "../images/pizza.png";
-import saladImg from "../images/salad.png";
-import waterImg from "../images/water.png";
+
+// import burgerImg from "../images/burger.png";
+// import cocaImg from "../images/coca.png";
+// import icecreamImg from "../images/icecream.png";
+// import icecream1Img from "../images/icecream1.png";
+// import kebabImg from "../images/kebab.png";
+// import pizzaImg from "../images/pizza.png";
+// import saladImg from "../images/salad.png";
+// import waterImg from "../images/water.png";
 
 
-export function getData(){
-    useEffect(()=>{
-        fetch("https://c7ad-213-230-112-157.eu.ngrok.io/api/products")
-        .then(res=>res.json())
-        .then((result)=>{
-            console.log(result);
-                return result;
-        }
-        )
-    },[]
-    )
-}
+//cast actualData.data to an object array and pass it to 
+// export function getData() {
+
+//     fetch(`http://localhost:8080/api/products`)
+//         .then((response) => response.json())
+//         .then((actualData) => )
+//         .catch((err) => {
+//             console.log(err.message);
+//         });
+//     console.log(foods);
+//     return foods;
+// }
 
 // export function getData(){
 //     return ([
