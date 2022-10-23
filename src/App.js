@@ -7,7 +7,7 @@ import Cart from "./Components/Cart/Cart"
 // const foods = getData();
 
 const telegram = window.Telegram.WebApp;
-const url = `http://localhost:8080/api/products`;
+const url = `https://b3dd-213-230-102-155.eu.ngrok.io`;
 
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
         console.log(err.message);
       });
     console.log('render');
-  },[url])
+  },[])
 
   const onCheckout = () => {
     telegram.MainButton.text = "Pay bistro";
